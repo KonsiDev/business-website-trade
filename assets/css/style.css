@@ -356,6 +356,11 @@ h1, h2, h3, h4, h5, h6 {
   left: 50px;
   right: 50px;
 }
+
+#hero .carousel-container span {
+  color: #0a9f82;
+}
+
 #hero .container {
   text-align: center;
 }
@@ -436,9 +441,22 @@ h1, h2, h3, h4, h5, h6 {
   animation-delay: 0.8s;
   background: #428bca;
 }
-#hero .btn-get-started:hover {
+
+#hero  .trade{
+  background: #428bca;
+}
+#hero  .trade:hover {
   background: #5697d0;
 }
+
+#hero  .konsi{
+  background: #0a9f82;
+}
+
+#hero .konsi:hover{
+  background: #0dc7a2;
+}
+
 @media (max-width: 768px) {
   #hero h2 {
     font-size: 28px;
