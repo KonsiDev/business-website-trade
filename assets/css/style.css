@@ -524,6 +524,8 @@ section {
   }
 }
 
+
+
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
@@ -671,6 +673,35 @@ section {
     opacity: 0;
   }
 }
+
+/*--------------------------------------------------------------
+# Clients
+--------------------------------------------------------------*/
+.clients {
+  padding-top: 30px;
+}
+.clients .clients-wrap {
+  border-top: 1px solid #e7e7e7;
+  border-left: 1px solid #e7e7e7;
+}
+.clients .client-logo {
+  padding: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #e7e7e7;
+  border-bottom: 1px solid #e7e7e7;
+  overflow: hidden;
+  background: #fff;
+  height: 140px;
+}
+.clients .client-logo:hover img {
+  transform: scale(1.1);
+}
+.clients img {
+  transition: all 0.4s ease-in-out;
+}
+
 /*--------------------------------------------------------------
 # Counts
 --------------------------------------------------------------*/
@@ -1097,6 +1128,12 @@ section {
   color: #92bce0;
   margin-bottom: 15px;
 }
+
+.contact img {
+  max-width: 70%;
+  padding: 20px 20px 20px 100px;
+}
+
 .contact .info h4 {
   padding: 0;
   margin: 0 0 10px 0;
